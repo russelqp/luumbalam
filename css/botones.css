@@ -1,0 +1,181 @@
+
+.clean-gray 
+  	background-color #eeeeee
+  	background-image -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc))
+ 	background-image -webkit-linear-gradient(top, #eeeeee, #cccccc)
+  	background-image -moz-linear-gradient(top, #eeeeee, #cccccc)
+  	background-image -ms-linear-gradient(top, #eeeeee, #cccccc)
+  	background-image -o-linear-gradient(top, #eeeeee, #cccccc)
+    background-image linear-gradient(top, #eeeeee, #cccccc)
+    border 1px solid #ccc
+    border-bottom 1px solid #bbb
+   -webkit-border-radius 3px
+   -moz-border-radius 3px
+   border-radius 3px
+    color #333
+    font bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif
+    line-height 1
+    padding 8px 0
+    text-align center
+    text-shadow 0 1px 0 #eee
+    width 150px 
+
+ .clean-grayhover 
+    background-color #dddddd
+    background-image -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb))
+    background-image -webkit-linear-gradient(top, #dddddd, #bbbbbb)
+    background-image -moz-linear-gradient(top, #dddddd, #bbbbbb)
+    background-image -ms-linear-gradient(top, #dddddd, #bbbbbb)
+    background-image -o-linear-gradient(top, #dddddd, #bbbbbb)
+    background-image linear-gradient(top, #dddddd, #bbbbbb)
+    border 1px solid #bbb
+    border-bottom 1px solid #999
+    cursor pointer
+    text-shadow 0 1px 0 #ddd 
+  .clean-grayactive 
+    border 1px solid #aaa
+    border-bottom 1px solid #888
+    -webkit-box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee
+    -moz-box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee
+    box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee 
+
+	/*cleanygray2*/
+.clean-gray2 
+  background-color #9C0
+  background-image -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc))
+  background-image -webkit-linear-gradient(top, #E6F2BF, #BDE66A)
+  background-image -moz-linear-gradient(top, #eeeeee, #cccccc)
+  background-image -ms-linear-gradient(top, #eeeeee, #cccccc)
+  background-image -o-linear-gradient(top, #eeeeee, #cccccc)
+  background-image linear-gradient(top, #eeeeee, #cccccc)
+  border 1px solid #ccc
+  border-bottom 1px solid #bbb
+  -webkit-border-radius 3px
+  -moz-border-radius 3px
+  border-radius 3px
+  color #333
+  font bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif
+  line-height 1
+  padding 8px 5px
+  text-align center
+  text-shadow 0 1px 0 #eee
+  width 110px 
+  text-decorationnone
+ 
+ .clean-gray2hover 
+   background-color #dddddd
+   background-image -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb))
+   background-image -webkit-linear-gradient(top, #dddddd, #bbbbbb)
+   background-image -moz-linear-gradient(top, #dddddd, #bbbbbb)
+   background-image -ms-linear-gradient(top, #dddddd, #bbbbbb)
+   background-image -o-linear-gradient(top, #dddddd, #bbbbbb)
+   background-image linear-gradient(top, #dddddd, #bbbbbb)
+   border 1px solid #bbb
+   border-bottom 1px solid #999
+   cursor pointer
+   text-shadow 0 1px 0 #ddd 
+  .clean-gray2active 
+   border 1px solid #aaa
+   border-bottom 1px solid #888
+   -webkit-box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee
+   -moz-box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee
+   box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee 
+
+.clean-gray3 
+  background-color #3CF
+  border 1px solid #ccc
+  border-left0
+  border-radius 0 .5em .5em 0
+  color #FFF
+  padding 5px 0
+  width 30% 
+  text-decorationnone
+  margin0
+  height30px
+  display inline-block
+  vertical-align top
+  
+ .clean-gray3hover 
+   background-color #dddddd
+   border 1px solid #bbb
+   border-bottom 1px solid #999
+   cursor pointer
+   text-shadow 0 1px 0 #ddd 
+  .clean-gray3active 
+   border 1px solid #aaa
+   border-bottom 1px solid #888
+   box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee 
+	
+.btn-precios 
+  background-color #3CF
+  background-image -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc))
+  background-image -webkit-linear-gradient(top, #3C0, #9C0)
+  background-image -moz-linear-gradient(top, #3C0, #9C0)
+  background-image -ms-linear-gradient(top, #3C0, #9C0)
+  background-image -o-linear-gradient(top,#3C0, #9C0)
+  background-image linear-gradient(top, #3C0, #9C0)
+  border1px solid #F90
+  -webkit-border-radius 3px
+  -moz-border-radius 3px
+  border-radius 3px
+  color #FFF
+  padding 3px 5px
+  text-align center
+  text-shadow 0 1px 0 #eee
+  width 198px
+  displayblock
+  text-decorationnone
+  margin10px auto
+  
+.btn-precioshover 
+  background-color #dddddd
+  background-image -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb))
+  background-image -webkit-linear-gradient(top, #9C0, #CF0)
+  background-image -moz-linear-gradient(top,#9C0, #CF0)
+  background-image -ms-linear-gradient(top, #9C0, #CF0)
+  background-image -o-linear-gradient(top, #9C0, #CF0)
+  background-image linear-gradient(top, #9C0, #CF0)
+  border 1px solid #bbb
+  border-bottom 1px solid #999
+  cursor pointer
+  text-shadow 0 1px 0 #ddd 
+  .btn-preciosactive 
+  border 1px solid #aaa
+  border-bottom 1px solid #888
+  -webkit-box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee
+  -moz-box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee
+  box-shadow inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee 
+	
+.griz 
+	
+  display inline-block
+  outline none
+  cursor pointer
+  text-align center
+  text-decoration none
+  font 16px/100% Arial, Helvetica, sans-serif
+  padding .7em 1.8em
+  text-shadow 0 1px 1px rgba(0,0,0,.3)
+  border-radius .2em
+  box-shadow 0 0 3px 1px rgba(0,0,0,.2)
+  color #fef4e9
+  border solid 1px #da7c0c
+  background #f78d1d
+  background -webkit-gradient(linear, left top, left bottom, from(#faa30a), to(#f45a20))
+  background -moz-linear-gradient(top,  #faa51a,  #f47a20)
+  filter  progidDXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20')
+
+.grizhover 
+	text-decoration none
+	background #ffab00
+	background -webkit-gradient(linear, left top, left bottom, from(#ffab00), to(#ffbf00))
+	background -webkit-linear-gradient(top,  #ffab00,  #ffbf00)
+	filter  progidDXImageTransform.Microsoft.gradient(startColorstr='#ffab00', endColorstr='#ffbf00')
+
+.grizactive 
+	position relative
+	top 1px
+	color #ffffff
+	background -webkit-gradient(linear, left top, left bottom, from(#ff5300), to(#ff3100))
+	background -moz-linear-gradient(top,  #ff5300,  #ff3100)
+	filter  progidDXImageTransform.Microsoft.gradient(startColorstr='#ff5300', endColorstr='#ff3100')
