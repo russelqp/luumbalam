@@ -15,24 +15,30 @@ module.exports = {
     //   //  '5p': '100px 200px 100px auto 100px',
     //   //  '6p': '100px 200px 100px 100px auto 100px',
     //   },
-    //   textColor: theme => theme('colors'),
-    //  textColor: {
-    //   // 'primary': '#F2CB05',
-    //   // 'secondary': '#0099ff',
-    //   // 'primary2': '#ffed4a',
-    //   // 'danger': '#e3342f',
-    //  },
+    textColor: theme => theme('colors'),
+     textColor: {
+      'primary': '#F2CB05',
+      'secondary': '#f78d1d',
+      'secondary-light': '#f79b1f',
+      'third': '#a0cf34',
+      'turquesa-light': '#ace3d9',
+      'turquesa-dark': '#0cc',
+      'danger': '#e3342f',
+     },
     //   backgroundImage: theme => ({
     //     // 'wave-pattern': 'url(../image/wave-white.png)',
     //     // 'wave-pattern-dots': 'url(../image/pattern-white-dots.png)',
     //   }),
-    //   backgroundColor: theme => ({
-    //     ...theme('colors'),
-    //     // 'primary': '##F2CB05',
-    //     // 'secondary': '#0099ff',
-    //     // 'primary2': '#ffed4a',
-    //     // 'danger': '#e3342f',
-    //    })
+      backgroundColor: theme => ({
+        ...theme('colors'),
+        'primary': '#F2CB05',
+        'secondary': '#f78d1d',
+        'secondary-light': '#f79b1f',
+        'third': '#a0cf34',
+        'turquesa-light': '#ace3d9',
+        'turquesa-dark': '#0cc',
+        'danger': '#e3342f',
+       })
     },
   },
   variants: {
@@ -40,5 +46,7 @@ module.exports = {
       backgroundColor: ['odd, even'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }

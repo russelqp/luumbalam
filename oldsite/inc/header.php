@@ -1,5 +1,5 @@
 <?php 
-	$url_r="http://localhost/luumbalam/";
+	$url_r="http://localhost/luumbalam/oldsite/";
 	$url_a ="";
 	$my_url = $url_r;
 ?>

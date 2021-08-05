@@ -1,67 +1,116 @@
 doctype html
-html(lang="en")
+html(lang="es")
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Luumbalam Ecopark
-    style(src="./css/main.styl") 
-  body(class="w-full mx-auto" ) 
-    header
-      div(class="logo") Logo
-      nav 
-        ul
-          li
-            a(href="") Home
-          li
-            a(href="") Quienes Somos
-          li
-            a(href="") Servicios
-          li
-            a(href="") Galería
-          li
-            a(href="") Contacto
-   
-
-    section(class="bagde w-full justify-between mx-auto")
-      section(class="banner w-full md:9/12") Aquí va el banner
-      section(class="calendario w-full md:3/12") Aquí el calendario
-      
-    main(class="w-full justify-between mx-auto")
-      section(class="welcome w-full md:9/12")
-        p En este sitio encontraras información relacionada al parque ecológico Lu'um Balam, ubicado en el corazón de la Riviera Maya. Los servicios que ofrecemos son diversos, con horarios flexibles, y costos accesibles. Realiza tu reservación desde nuestro sitio o llama a nuestros números para obtener atención personalizada.
-        p En Lu'um Balam lo natural es que explores desde las raíces de la región a través de caminatas, paseos en bici, visitar las grutas, snorkeling en cenote y podrás también vivir la experiencia de un camping en medio de la selva bajo un cielo bañado en estrellas y podrás observar el cosmos con nuestros telescopios e invitar a tus amigos a convivir en un evento en la palapa, donde incluimos un asador para preparar los alimentos de tu preferencia.
-
-        div(class="actividades")
-          h3 Actividades
-          figure
-            img(src="", alt="")
-          figure
-            img(src="", alt="")
-          figure
-            img(src="", alt="")
-          figure
-            img(src="", alt="")
-          figure
-            img(src="", alt="")
-          figure
-            img(src="", alt="")
-      section(class="anunciantes w-full md:3/12") Aquí irán los anunciantes
-    footer
-      section(class="")
-        nav(class="nav-bottom w-full")
-          ul(class="flex") 
-            li
+    link(rel="stylesheet", href="./css/main.css")
+    script(src="./js/scripts.js") 
+  body(class="w-full mx-auto bg-green-400" )
+    div(class="container bg-secondary mx-auto w-full")
+      div(class="top-contacto w-full mx-auto flex p-4 bg-secondary-light align-middle right-0 justify-items-end text-right")
+          p Atención a clientes:
+            span 999999999 MXN | 8888888888 USA
+      header(class="w-full flex p-4 bg-third align-middle") 
+        div(class="logo mr-2 text-gray-600 font-bold text-2xl w-2/12") Lu'um Balam
+        nav(class="8/12") 
+          ul(class="flex gap-2")
+            li(class="btn_1")
               a(href="") Home
-            li
-              a(href="") Blog
-            li
-              a(href="") Mapa de sitio
-            li
-              a(href="") Términos y condiciones
-            li
-              a(href="") Politica de privacidad
-            li
-              a(href="") Guía de precios
-            li
+            li(class="btn_1")
+              a(href="") Quienes Somos
+            li(class="btn_1")
+              a(href="") Servicios
+            li(class="btn_1")
+              a(href="") Galería
+            li(class="btn_1")
               a(href="") Contacto
+    
+
+      div(class="bagde flex w-full justify-between mx-auto")
+        section(class="banner w-full md:9/12")
+          figure(class="p-0 flex w-full")
+            img(src="images/jaguar.jpg" width="100%")
+        section(class="calendario w-full md:3/12") Aquí el calendario
+        
+      main(class="w-full justify-between mx-auto bg-gray-50 p-8")
+        section(class="welcome w-full md:9/12")
+          p En este sitio encontraras información relacionada al parque ecológico Lu'um Balam, ubicado en el corazón de la Riviera Maya. Los servicios que ofrecemos son diversos, con horarios flexibles, y costos accesibles. Realiza tu reservación desde nuestro sitio o llama a nuestros números para obtener atención personalizada.
+          p En Lu'um Balam lo natural es que explores desde las raíces de la región a través de caminatas, paseos en bici, visitar las grutas, snorkeling en cenote y podrás también vivir la experiencia de un camping en medio de la selva bajo un cielo bañado en estrellas y podrás observar el cosmos con nuestros telescopios e invitar a tus amigos a convivir en un evento en la palapa, donde incluimos un asador para preparar los alimentos de tu preferencia.
+
+          div(class="actividades w-full my-20")
+            h3(class="m-4") Actividades
+            div(class="container-cards flex gap-2 flex-wrap mx-auto justify-around")
+              div(class="card text-center shadow-2xl md:w-3/12")
+                figure(class="px-10 pt-10")
+                  img(src="https://picsum.photos/id/1005/400/250" class="rounded-xl")
+                div(class="card-body")
+                  h2.card-title shadow, center, padding
+                  p Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
+                  div(class="justify-center card-actions")
+                    button(class="btn btn-outline btn-accent") More info
+              
+              div(class="card text-center shadow-2xl md:w-3/12")
+                figure(class="px-10 pt-10")
+                  img(src="https://picsum.photos/id/1005/400/250" class="rounded-xl")
+                div(class="card-body")
+                  h2.card-title shadow, center, padding
+                  p Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
+                  div(class="justify-center card-actions")
+                    button(class="btn btn-outline btn-accent") More info
+              div(class="card text-center shadow-2xl md:w-3/12")
+                figure(class="px-10 pt-10")
+                  img(src="https://picsum.photos/id/1005/400/250" class="rounded-xl")
+                div(class="card-body")
+                  h2.card-title shadow, center, padding
+                  p Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
+                  div(class="justify-center card-actions")
+                    button(class="btn btn-outline btn-accent") More info
+              div(class="card text-center shadow-2xl md:w-3/12")
+                figure(class="px-10 pt-10")
+                  img(src="https://picsum.photos/id/1005/400/250" class="rounded-xl")
+                div(class="card-body")
+                  h2.card-title shadow, center, padding
+                  p Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
+                  div(class="justify-center card-actions")
+                    button(class="btn btn-outline btn-accent") More info
+              
+              div(class="card text-center shadow-2xl md:w-3/12")
+                figure(class="px-10 pt-10")
+                  img(src="https://picsum.photos/id/1005/400/250" class="rounded-xl")
+                div(class="card-body")
+                  h2.card-title shadow, center, padding
+                  p Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
+                  div(class="justify-center card-actions")
+                    button(class="btn btn-outline btn-accent") More info
+              div(class="card text-center shadow-2xl md:w-3/12")
+                figure(class="px-10 pt-10")
+                  img(src="https://picsum.photos/id/1005/400/250" class="rounded-xl")
+                div(class="card-body")
+                  h2.card-title shadow, center, padding
+                  p Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
+                  div(class="justify-center card-actions")
+                    button(class="btn btn-outline btn-accent") More info
+            
+    
+        section(class="anunciantes w-full md:3/12 p-8") Aquí irán los anunciantes
+          
+      footer(class="p-8")
+        section(class="")
+          nav(class="nav-bottom w-full")
+            ul(class="flex") 
+              li
+                a(href="") Home
+              li
+                a(href="") Blog
+              li
+                a(href="") Mapa de sitio
+              li
+                a(href="") Términos y condiciones
+              li
+                a(href="") Politica de privacidad
+              li
+                a(href="") Guía de precios
+              li
+                a(href="") Contacto
