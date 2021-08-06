@@ -25,10 +25,10 @@ module.exports = {
       'turquesa-dark': '#0cc',
       'danger': '#e3342f',
      },
-    //   backgroundImage: theme => ({
-    //     // 'wave-pattern': 'url(../image/wave-white.png)',
-    //     // 'wave-pattern-dots': 'url(../image/pattern-white-dots.png)',
-    //   }),
+      backgroundImage: theme => ({
+        'jaguar': 'url(../images/jaguar.jpg)',
+        // 'wave-pattern-dots': 'url(../image/pattern-white-dots.png)',
+      }),
       backgroundColor: theme => ({
         ...theme('colors'),
         'primary': '#F2CB05',

@@ -5155,11 +5155,14 @@ html {
 .mr-2 {
 	margin-right: 0.5rem;
 }
-.mb-3 {
-	margin-bottom: 0.75rem;
+.mb-5 {
+	margin-bottom: 1.25rem;
 }
 .mt-6 {
 	margin-top: 1.5rem;
+}
+.mb-3 {
+	margin-bottom: 0.75rem;
 }
 .mt-2 {
 	margin-top: 0.5rem;
@@ -5233,6 +5236,9 @@ html {
 .hidden {
 	display: none;
 }
+.h-96 {
+	height: 24rem;
+}
 .w-full {
 	width: 100%;
 }
@@ -5241,6 +5247,12 @@ html {
 }
 .w-1\/2 {
 	width: 50%;
+}
+.max-w-sm {
+	max-width: 24rem;
+}
+.flex-shrink-0 {
+	flex-shrink: 0;
 }
 .flex-shrink {
 	flex-shrink: 1;
@@ -5743,6 +5755,10 @@ html {
 	--tw-bg-opacity: 1;
 	background-color: rgba(160, 207, 52, var(--tw-bg-opacity));
 }
+.bg-base-100 {
+	--tw-bg-opacity: 1;
+	background-color: hsla(var(--b1) / var(--tw-bg-opacity));
+}
 .bg-gray-50 {
 	--tw-bg-opacity: 1;
 	background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
@@ -5767,6 +5783,9 @@ html {
 	--tw-bg-opacity: 1;
 	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
 }
+.bg-jaguar {
+	background-image: url(../images/jaguar.jpg);
+}
 .decoration-slice {
 	-webkit-box-decoration-break: slice;
 	        box-decoration-break: slice;
@@ -5774,6 +5793,9 @@ html {
 .decoration-clone {
 	-webkit-box-decoration-break: clone;
 	        box-decoration-break: clone;
+}
+.bg-cover {
+	background-size: cover;
 }
 .bg-fixed {
 	background-attachment: fixed;
@@ -5850,9 +5872,6 @@ html {
 .p-4 {
 	padding: 1rem;
 }
-.p-0 {
-	padding: 0px;
-}
 .p-8 {
 	padding: 2rem;
 }
@@ -5927,6 +5946,10 @@ html {
 .text-2xl {
 	font-size: 1.5rem;
 	line-height: 2rem;
+}
+.text-5xl {
+	font-size: 3rem;
+	line-height: 1;
 }
 .font-bold {
 	font-weight: 700;
@@ -6116,6 +6139,10 @@ html {
 }
 .mix-blend-luminosity {
 	mix-blend-mode: luminosity;
+}
+.shadow-2xl {
+	--tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow {
 	--tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -6352,9 +6379,17 @@ html {
 }
 @media (min-width: 1024px) {
 
+	.lg\:flex-row {
+		flex-direction: row;
+	}
+
 	.lg\:px-10 {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
+	}
+
+	.lg\:text-left {
+		text-align: left;
 	}
 
 	.lg\:text-2xl {
