@@ -39,19 +39,21 @@
               </p>
             </div>
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-              <h3>Todo incluido </h3>
-              <div> 
-                <div> 
-                  <h4>Adultos</h4><span class="old_price">1250</span><span class="price">1050 </span>
+              <h3 class="flex p-2 pt-4 text-xl mx-auto text-center">Todo incluido </h3>
+              <div class="flex flex-wrap justify-between"> 
+                <div class="mx-auto"> 
+                  <h4 class="flex p-2 pt-4 text-lg text-center">Adultos</h4>
+                  <div class="prices mx-auto text-center"><span class="old_price line-through">1250</span><br><span class="price">1050 </span></div>
                 </div>
-                <div>
-                  <h4>Niños</h4><span class="old_price">1100</span><span class="price">850</span>
+                <div class="mx-auto">
+                  <h4 class="flex p-2 pt-4 text-lg text-center">Niños</h4>
+                  <div class="prices mx-auto text-center"><span class="old_price line-through">1100</span><br><span class="price">850</span></div>
                 </div>
               </div>
               <div class="card-body">
                 <div class="form-control">
-                  <label class="label"><span class="label-text">Elige la actividad</span></label>
-                  <select>
+                  <select class="w-full border-2 rounded-md p-1">
+                    <option value="">Elige la aventura</option>
                     <option value="all">Todo incluido</option>
                     <option value="bici-tours">Bici Tours</option>
                     <option value="moto-tours">Moto Tours </option>
@@ -61,55 +63,57 @@
                     <option value="tirolesas">Tirolesas  </option>
                   </select>
                 </div>
-                <div class="form-control">
-                  <label class="label"><span class="label-text">Adultos (12+)</span></label>
-                  <select>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20
-                      <div class="form-control"></div>
-                    </option>
-                  </select>
-                  <label class="label"><span class="label-text">Niños (5 a 11)</span></label>
-                  <select>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                  </select>
+                <div class="flex flex-wrap x-auto justify-between w-full">
+                  <div class="form-control inline-block">
+                    <select class="p-1 border-2 rounded-md">
+                      <option value="">Adultos (12+) </option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                    </select>
+                  </div>
+                  <div class="form-control inline-block">
+                    <select class="p-1 border-2 rounded-md">
+                      <option value="">Niños (5 a 11) </option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                    </select>
+                  </div>
                 </div>
                 <div class="form-control mt-6">
                   <input class="btn btn-primary" type="button" value="Enviar">

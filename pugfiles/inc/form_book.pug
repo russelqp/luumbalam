@@ -1,0 +1,75 @@
+.card.flex-shrink-0.w-full.max-w-sm.shadow-2xl.bg-base-100
+  h3(class="flex p-2 pt-4 text-xl mx-auto text-center") Todo incluido 
+  div(class="flex flex-wrap justify-between") 
+    div(class="mx-auto") 
+      h4(class="flex p-2 pt-4 text-lg text-center") Adultos
+      div(class="prices mx-auto text-center")
+        span.old_price.line-through 1250
+        br
+        span.price 1050 
+    div(class="mx-auto")
+      h4(class="flex p-2 pt-4 text-lg text-center") Niños
+      div(class="prices mx-auto text-center")
+        span.old_price.line-through 1100
+        br
+        span.price 850
+  .card-body
+    .form-control
+      select(class="w-full border-2 rounded-md p-1")
+        option(value="") Elige la aventura
+        option(value="all") Todo incluido
+        option(value="bici-tours") Bici Tours
+        option(value="moto-tours") Moto Tours 
+        option(value="snorkeling") Snorkeling
+        option(value="camping") Camping 
+        option(value="espeleology") Espeleleology 
+        option(value="tirolesas") Tirolesas  
+    div(class="flex flex-wrap x-auto justify-between w-full")
+      .form-control.inline-block
+        select(class="p-1 border-2 rounded-md")
+          option(value="") Adultos (12+) 
+          option(value="1") 1
+          option(value="2") 2
+          option(value="3") 3
+          option(value="4") 4
+          option(value="5") 5
+          option(value="6") 6
+          option(value="7") 7
+          option(value="8") 8
+          option(value="9") 9
+          option(value="10") 10
+          option(value="11") 11
+          option(value="12") 12
+          option(value="13") 13
+          option(value="14") 14
+          option(value="15") 15
+          option(value="16") 16
+          option(value="17") 17
+          option(value="18") 18
+          option(value="19") 19
+          option(value="20") 20
+      .form-control.inline-block
+        select(class="p-1 border-2 rounded-md")
+          option(value="") Niños (5 a 11) 
+          option(value="1") 1
+          option(value="2") 2
+          option(value="3") 3
+          option(value="4") 4
+          option(value="5") 5
+          option(value="6") 6
+          option(value="7") 7
+          option(value="8") 8
+          option(value="9") 9
+          option(value="10") 10
+          option(value="11") 11
+          option(value="12") 12
+          option(value="13") 13
+          option(value="14") 14
+          option(value="15") 15
+          option(value="16") 16
+          option(value="17") 17
+          option(value="18") 18
+          option(value="19") 19
+          option(value="20") 20
+    .form-control.mt-6
+      input.btn.btn-primary(type="button", value="Enviar")
