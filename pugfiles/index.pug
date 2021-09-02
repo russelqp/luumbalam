@@ -12,21 +12,7 @@ html(lang="es")
       div(class="top-contacto w-full mx-auto flex p-4 bg-secondary-light align-middle right-0 justify-items-end text-right")
           p Atención a clientes:
             span 999999999 MXN | 8888888888 USA
-      header(class="w-full flex p-4 bg-third align-middle") 
-        div(class="logo mr-2 text-gray-600 font-bold text-2xl w-2/12") Lu'um Balam
-        nav(class="8/12") 
-          ul(class="flex gap-2")
-            li(class="btn_1")
-              a(href="") Home
-            li(class="btn_1")
-              a(href="") Quienes Somos
-            li(class="btn_1")
-              a(href="") Servicios
-            li(class="btn_1")
-              a(href="") Galería
-            li(class="btn_1")
-              a(href="") Contacto
-    
+      include inc/header 
 
       div(class="bagde flex w-full justify-between mx-auto")
         div(class="hero h-96 bg-jaguar bg-cover")
@@ -119,21 +105,4 @@ html(lang="es")
             
         section(class="anunciantes w-full md:3/12 p-8") Aquí irán los anunciantes
           
-      footer(class="p-8")
-        section(class="")
-          nav(class="nav-bottom w-full")
-            ul(class="flex") 
-              li
-                a(href="") Home
-              li
-                a(href="") Blog
-              li
-                a(href="") Mapa de sitio
-              li
-                a(href="") Términos y condiciones
-              li
-                a(href="") Politica de privacidad
-              li
-                a(href="") Guía de precios
-              li
-                a(href="") Contacto
+      include inc/footer
