@@ -26,7 +26,7 @@ module.exports = {
       'danger': '#e3342f',
      },
       backgroundImage: theme => ({
-        'jaguar': 'url(../images/jaguar.jpg)',
+        'mrpug': 'url(https://cdn.pixabay.com/photo/2015/06/08/15/02/pug-801826_960_720.jpg)',
         // 'wave-pattern-dots': 'url(../image/pattern-white-dots.png)',
       }),
       backgroundColor: theme => ({
@@ -34,7 +34,7 @@ module.exports = {
         'primary': '#F2CB05',
         'secondary': '#f78d1d',
         'secondary-light': '#f79b1f',
-        'third': '#a0cf34',
+        'third': '#a0FF9f',
         'turquesa-light': '#ace3d9',
         'turquesa-dark': '#0cc',
         'danger': '#e3342f',

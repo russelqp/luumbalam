@@ -5093,9 +5093,6 @@ html {
 .right-0 {
 	right: 0px;
 }
-.left-0 {
-	left: 0px;
-}
 .top-0 {
 	top: 0px;
 }
@@ -5253,6 +5250,9 @@ html {
 }
 .h-96 {
 	height: 24rem;
+}
+.h-\[450px\] {
+	height: 450px;
 }
 .w-full {
 	width: 100%;
@@ -5778,7 +5778,7 @@ html {
 }
 .bg-third {
 	--tw-bg-opacity: 1;
-	background-color: rgba(160, 207, 52, var(--tw-bg-opacity));
+	background-color: rgba(160, 255, 159, var(--tw-bg-opacity));
 }
 .bg-gray-50 {
 	--tw-bg-opacity: 1;
@@ -5799,6 +5799,14 @@ html {
 .bg-gray-400 {
 	--tw-bg-opacity: 1;
 	background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+}
+.bg-blue-900 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(30, 58, 138, var(--tw-bg-opacity));
+}
+.bg-blue-800 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(30, 64, 175, var(--tw-bg-opacity));
 }
 .bg-base-100 {
 	--tw-bg-opacity: 1;
@@ -5824,8 +5832,8 @@ html {
 	--tw-bg-opacity: 1;
 	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
 }
-.bg-jaguar {
-	background-image: url(../images/jaguar.jpg);
+.bg-mrpug {
+	background-image: url(https://cdn.pixabay.com/photo/2015/06/08/15/02/pug-801826_960_720.jpg);
 }
 .decoration-slice {
 	-webkit-box-decoration-break: slice;
@@ -5837,9 +5845,6 @@ html {
 }
 .bg-contain {
 	background-size: contain;
-}
-.bg-cover {
-	background-size: cover;
 }
 .bg-fixed {
 	background-attachment: fixed;
@@ -5862,6 +5867,9 @@ html {
 .bg-clip-text {
 	-webkit-background-clip: text;
 	        background-clip: text;
+}
+.bg-top {
+	background-position: top;
 }
 .bg-repeat {
 	background-repeat: repeat;
@@ -6100,6 +6108,10 @@ html {
 	--tw-text-opacity: 1;
 	color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
+.text-blue-900 {
+	--tw-text-opacity: 1;
+	color: rgba(30, 58, 138, var(--tw-text-opacity));
+}
 .underline {
 	text-decoration: underline;
 }
@@ -6116,6 +6128,9 @@ html {
 .subpixel-antialiased {
 	-webkit-font-smoothing: auto;
 	-moz-osx-font-smoothing: auto;
+}
+.opacity-90 {
+	opacity: 0.9;
 }
 .bg-blend-normal {
 	background-blend-mode: normal;
@@ -6461,6 +6476,10 @@ html {
 	}
 }
 @media (min-width: 1024px) {
+
+	.lg\:max-w-\[1200px\] {
+		max-width: 1200px;
+	}
 
 	.lg\:flex-row {
 		flex-direction: row;
