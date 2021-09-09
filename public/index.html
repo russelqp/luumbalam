@@ -6,37 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr. Pug Ecopark</title>
     <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/scripts.js"> </script>
+    <script src="https://kit.fontawesome.com/bd29bbd3bd.js" crossorigin="anonymous"></script>
   </head>
-  <body class="w-full mx-auto bg-green-400">
-    <div class="bg-secondary mx-auto w-full ">
-      <div class="container top-contacto w-full mx-auto flex p-4 bg-secondary-light align-middle right-0 justify-items-end text-right lg:max-w-[1200px] justify-end">
-        <p>Atención a clientes:<span>529999999 MXN | 558888888 USA</span></p>
+  <body class="w-full mx-auto">
+    <div class="mx-auto w-full">
+      <div class="w-full bg-blue-900 mx-auto">
+        <div class="container top-contacto w-full mx-auto flex p-4  align-middle right-0 justify-items-end text-right lg:max-w-[1200px] justify-end">
+          <p class="text-gray-50">Atención a clientes: <i class="fab fa-whatsapp"></i> <span>529999999 MXN |</span> <i class="fab fa-whatsapp"></i> <span>558888888 USA</span> </p>
+        </div>
       </div>
-      <header class="w-full p-4 bg-third align-middle mx-auto">
-        <div class="w-full flex lg:max-w-[1200px] mx-auto justify-between">
-          <div class="logo mr-2 text-gray-600 font-bold text-2xl md:w-1/3 w-2/12">Mr. Pug Tours</div>
-          <div class="flex items-center p-2 space-x-6 bg-white rounded-xl transition duration-500 md:w-1/3">
+      <header class="w-full p-4 align-middle mx-auto bg-gray-100">
+        <div class="w-full flex lg:max-w-[1200px] mx-auto justify-between align-middle place-items-center">
+          <div class="logo mr-2 text-blue-800 font-bold text-2xl md:w-1/3 w-1/3">Mr. Pug Tours</div>
+          <div class="flex items-center p-2 space-x-6 bg-white rounded-xl transition duration-500 w-full box-border">
             <div class="flex bg-gray-100 p-4 w-72 space-x-4 rounded-lg ">
               <svg class="h-6 w-6 opacity-30" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
               </svg>
               <input class="bg-gray-100 outline-none" type="text" placeholder="Article name or keyword...">
             </div>
-            <div class="flex py-3 px-4 rounded-lg text-gray-500 font-semibold cursor-pointer"><span>All categorie</span>
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-              </svg>
+            <div class="flex py-3 px-4 rounded-lg text-gray-500 font-semibold cursor-pointer">
+              <div>
+                <form action="">
+                  <select class="p-1" name="idioma" id="idioma">
+                    <option value="">All category</option>
+                    <option value="">Tours </option>
+                    <option value="">Parques </option>
+                    <option value="">Hoteles    </option>
+                  </select>
+                </form>
+              </div>
             </div>
             <div class="bg-red-600 py-3 px-5 text-white font-semibold rounded-lg hover:shadow-lg transition duration-3000 cursor-pointer"><span>Search</span></div>
           </div>
-          <nav class="w-8/12 md:w-1/3"> 
+          <nav class="w-full mx-auto flex justify-center"> 
             <ul class="flex gap-2">
-              <li class="btn_1"><a href="/">Home</a></li>
-              <li class="btn_1"><a href="about.html">Quienes Somos</a></li>
-              <li class="btn_1"><a href="servicios.html">Servicios</a></li>
-              <li class="btn_1"><a href="galeria.html">Galería</a></li>
-              <li class="btn_1"><a href="contacto.html">Contacto</a></li>
+              <li><a href="tours.html"><i class="fab fa-discourse"></i> Tours</a></li>
+              <li><a href="faq.html"><i class="far fa-question-circle"></i> FAQ</a></li>
+              <li><a href="contacto.html"><i class="fas fa-at"></i> Contacto</a></li>
             </ul>
           </nav>
         </div>
@@ -48,9 +55,7 @@
               <h1 class="mb-5 text-5xl font-bold text-blue-900">
                 <Hello>Adventurous</Hello>
               </h1>
-              <p class="mb-5 text-2xl">
-                <Adentrate>a un emocionante entorno rebitalizante, entre emocionantes actividades en el corazón de la Riviera Maya. </Adentrate>
-              </p>
+              <p class="mb-5 text-2xl text-white">Adentrate a un emocionante entorno rebitalizante, entre emocionantes actividades en el corazón de la Riviera Maya. </p>
             </div>
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
               <h3 class="flex p-2 pt-4 text-xl mx-auto text-center">Todo incluido </h3>
@@ -143,7 +148,7 @@
           <p>En Lu'um Balam lo natural es que explores desde las raíces de la región a través de caminatas, paseos en bici, visitar las grutas, snorkeling en cenote y podrás también vivir la experiencia de un camping en medio de la selva bajo un cielo bañado en estrellas y podrás observar el cosmos con nuestros telescopios e invitar a tus amigos a convivir en un evento en la palapa, donde incluimos un asador para preparar los alimentos de tu preferencia.</p>
           <div class="actividades w-full my-20 mx-auto">
             <h3 class="m-4">Actividades</h3>
-            <div class="flex flex-wrap mx-auto justify-around gap-4">
+            <div class="w-full flex flex-wrap mx-auto justify-around gap-2">
               <div class="card_1">
                 <div class="container flex justify-center">
                   <div>
@@ -239,10 +244,10 @@
         </section>
         <section class="anunciantes w-full md:3/12 p-8">Aquí irán los anunciantes</section>
       </main>
-      <footer class="p-8 w-full bg-gray-400">
+      <footer class="p-8 w-full bg-gray-800 text-gray-200">
         <section class="w-full border-b border-gray-800 flex mx-auto justify-between align-middle">
           <div class="w-full p-4 md:w-2/4">
-            <h2 class="font-bold uppercase text-gray-700">Lu'um Balam Ecopark</h2><span>&copy; 2021 LuLu'um Balam Ecopark Todos los derechos reservados.</span>
+            <h2 class="font-bold uppercase text-gray-700">Mr. Pug Ecopark</h2><span>&copy; 2021 Mr. Pug Tours Todos los derechos reservados.</span>
           </div>
           <div class="rs-bottom md:w-2/4 p-4">
             <ul class="flex justify-around"> 
@@ -265,7 +270,7 @@
         <nav class="nav-bottom w-full p-4 mx-auto">
           <ul class="flex justify-between"> 
             <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">Mapa de sitio</a></li>
             <li><a href="">Términos y condiciones</a></li>

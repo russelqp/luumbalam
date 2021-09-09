@@ -1,17 +1,11 @@
 doctype html
 html(lang="es")
-  head
-    meta(charset="UTF-8")
-    meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title Mr. Pug Ecopark
-    link(rel="stylesheet", href="./css/main.css")
-    script(src="./js/scripts.js") 
-  body(class="w-full mx-auto bg-green-400" )
-    div(class="bg-secondary mx-auto w-full ")
-      div(class="container top-contacto w-full mx-auto flex p-4 bg-secondary-light align-middle right-0 justify-items-end text-right lg:max-w-[1200px] justify-end")
-          p Atención a clientes:
-            span 529999999 MXN | 558888888 USA
+  include inc/head.pug
+  body(class="w-full mx-auto" )
+    div(class="mx-auto w-full")
+      div(class="w-full bg-blue-900 mx-auto")
+        div(class="container top-contacto w-full mx-auto flex p-4  align-middle right-0 justify-items-end text-right lg:max-w-[1200px] justify-end")
+            p(class="text-gray-50") Atención a clientes: #[i(class="fab fa-whatsapp")] #[span 529999999 MXN |] #[i(class="fab fa-whatsapp")] #[span 558888888 USA] 
       include inc/header 
 
       div(class="bagde flex w-full justify-between mx-auto")
@@ -22,9 +16,7 @@ html(lang="es")
                 
                 Hello Adventurous
                 
-              p.mb-5.text-2xl
-                
-                Adentrate a un emocionante entorno rebitalizante, entre emocionantes actividades en el corazón de la Riviera Maya. 
+              p.mb-5.text-2xl.text-white Adentrate a un emocionante entorno rebitalizante, entre emocionantes actividades en el corazón de la Riviera Maya. 
                 
             include inc/form_book
         
@@ -35,7 +27,7 @@ html(lang="es")
 
           div(class="actividades w-full my-20 mx-auto")
             h3(class="m-4") Actividades
-            div(class="flex flex-wrap mx-auto justify-around gap-4")
+            div(class="w-full flex flex-wrap mx-auto justify-around gap-2")
               div(class="card_1")
                 div(class="container flex justify-center")
                   div(class="")

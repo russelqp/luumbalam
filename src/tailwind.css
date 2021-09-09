@@ -9,7 +9,7 @@
   @apply mt-6 py-2 px-4 bg-yellow-400 text-gray-800 font-bold rounded-lg shadow-md hover:shadow-lg transition duration-300 mx-auto;
 }
 .card_1 {
-  @apply bg-gray-100 inline-block justify-center items-center w-full md:w-5/12 lg:w-3/12 m-2;
+  @apply bg-gray-100 inline-block justify-center items-center w-full md:w-5/12 lg:w-[30%];
 }
 .card_1__inner {
   @apply bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg;
